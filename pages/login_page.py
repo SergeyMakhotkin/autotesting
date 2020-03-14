@@ -11,7 +11,7 @@ class LoginPage(BasePage):
         print("login form check passed!")
         self.should_be_register_form()
         print("register form check passed!")
-        print("It's really loggin page!")
+        print("It's really login page!")
 
     def should_be_login_url(self):
         assert 'login' in self.browser.current_url, 'Wrong login URL'

@@ -1,6 +1,5 @@
 import pytest
 from selenium import webdriver
-from time import sleep
 
 
 def pytest_addoption(parser):
